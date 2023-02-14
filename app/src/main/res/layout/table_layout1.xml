@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <TableRow>
+        <TextView
+            android:layout_span="3"
+            android:text="Tables Layout Exemples"
+            android:background="#c98282"
+            android:gravity="center"
+            />
+        <!-- gravity la cach chon can dong text -->
+    </TableRow>
+    <TableRow>
+        <Button android:layout_column="1" android:text="B1" />
+        <Button android:text="B2" />
+    </TableRow>
+    <TableRow>
+        <Button android:text="C1" />
+        <Button android:layout_column="2" android:text="C2" />
+        <Button android:text="C3" />
+    </TableRow>
+
+</TableLayout>
