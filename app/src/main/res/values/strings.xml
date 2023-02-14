@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Chuong3TBDD</string>
+    <string-array name="School">
+        <item>PTIT</item>
+        <item>HUST</item>
+        <item>UIT</item>
+    </string-array>
 </resources>
