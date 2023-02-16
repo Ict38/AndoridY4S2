@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittext"
+        android:text="Email"
+        android:layout_marginTop="70dp"
+         />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittext"
+        android:text="Tên người dùng"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et1"
+        />
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittext"
+        android:text="Mật khẩu"
+        android:layout_below="@id/et2"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edittext"
+        android:text="Nhập lại mật khẩu"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/et3"
+        />
+    <Button
+        android:id="@+id/dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et4"
+        android:layout_margin="30dp"
+        android:text="Tạo tài khoản"
+        android:background="@drawable/buttoncustom"
+        />
+    <TextView
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dn"
+        android:text="Quay về trang đăng nhập"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
