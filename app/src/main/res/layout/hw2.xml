@@ -11,6 +11,7 @@
         android:layout_marginHorizontal="30dp"
         android:background="@drawable/edittext"
         android:text="Email"
+        android:height="30dp"
         android:layout_marginTop="70dp"
          />
     <EditText
@@ -20,6 +21,7 @@
         android:layout_marginHorizontal="30dp"
         android:background="@drawable/edittext"
         android:text="Tên người dùng"
+        android:height="30dp"
         android:layout_marginTop="20dp"
         android:layout_below="@id/et1"
         />
@@ -27,6 +29,7 @@
         android:id="@+id/et3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:height="30dp"
         android:layout_marginHorizontal="30dp"
         android:background="@drawable/edittext"
         android:text="Mật khẩu"
@@ -37,6 +40,7 @@
         android:id="@+id/et4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:height="30dp"
         android:layout_marginHorizontal="30dp"
         android:background="@drawable/edittext"
         android:text="Nhập lại mật khẩu"
