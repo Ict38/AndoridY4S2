@@ -5,4 +5,10 @@
         <item>HUST</item>
         <item>UIT</item>
     </string-array>
+    <string-array name="pheptinh">
+        <item> Cong</item>
+        <item> Tru</item>
+        <item> Nhan</item>
+        <item> Chia</item>
+    </string-array>
 </resources>
