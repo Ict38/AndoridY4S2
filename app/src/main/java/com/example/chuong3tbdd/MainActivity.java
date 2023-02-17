@@ -71,11 +71,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String sh1 = edt1.getText().toString();
                 String sh2 = edt2.getText().toString();
                 double n1,n2;
-//                try {
-//                    n1 = Double.parseDouble(sh1);
-//                    n2 = Double.parseDouble(sh2);
-//                    String o = arrayAdapter.getItem(l);
-//                }
+                try {
+                    n1 = Double.parseDouble(sh1);
+                    n2 = Double.parseDouble(sh2);
+//                    String o = arrayAdapter.getItem(i).toString();
+                    String o = spTinh.getSelectedItem().toString();
+                    tv1.setText(tinh(n1,n2,o));
+                }catch (NumberFormatException e){
+                    Toast.makeText(MainActivity.this, "de nghi nhap so", Toast.LENGTH_SHORT).show();
+                }
             }
 
             @Override
@@ -146,7 +150,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case "Chia":
                 if(y==0) t = "So chia khong hop le";
-                else t = "Thuong: " + (x%y);
+                else t = "Thuong: " + (x/y);
                 break;
         }
         return t;
