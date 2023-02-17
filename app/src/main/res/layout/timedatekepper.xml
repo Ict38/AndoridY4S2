@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A">
+    <EditText
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text=""
+        android:height="40dp"
+        android:background="@drawable/edittext"
+        />
+    <EditText
+        android:id="@+id/dt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tb"
+        android:layout_margin="20dp"
+        android:height="40dp"
+        android:background="@drawable/edittext"
+        />
+        />
+    <Button
+        android:id="@+id/tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttoncustom"
+        android:text="set time"
+        />
+    <Button
+        android:id="@+id/db"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/dt"
+        android:background="@drawable/buttoncustom"
+        android:text="SET DATE"
+        />
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@id/db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+</RelativeLayout>

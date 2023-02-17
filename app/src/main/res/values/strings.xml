@@ -11,4 +11,11 @@
         <item> Nhan</item>
         <item> Chia</item>
     </string-array>
+    <string-array name="technology">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Python</item>
+        <item>Android</item>
+    </string-array>
 </resources>

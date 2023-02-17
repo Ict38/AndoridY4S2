@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.adding);
+        //====================================================================
+
 //        initHW1();
 //        btn1.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                Toast.makeText(getApplicationContext(), "Dang Nhap That Bai", Toast.LENGTH_SHORT).show();
 //            }
 //        });
+
+//---------------------------------------------------------------------------------------------
         initGUI();
         btn1.setOnClickListener(new View.OnClickListener() { // khong de onClick trong xml
             @Override
@@ -87,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
+        //-----------------------------------------------------------------
     }
 
     private void initHW1() {
